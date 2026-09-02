@@ -1,0 +1,60 @@
+name: trabalhaki2
+description: "Trabalhaki - Job matching platform"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  go_router: ^14.2.7
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+  flutter_animate: ^4.5.0
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  flutter_card_swiper: ^7.0.2
+  animated_text_kit: ^4.2.2
+  lottie: ^3.1.2
+  badges: ^3.1.2
+  timeago: ^3.7.0
+  smooth_page_indicator: ^1.2.0+3
+  percent_indicator: ^4.2.3
+  flutter_staggered_animations: ^1.1.1
+  url_launcher: ^6.3.0
+  vibration: ^2.0.0
+  confetti: ^0.7.0
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/fonts/
+  
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSans-ExtraBold.ttf
+          weight: 800
