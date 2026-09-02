@@ -69,3 +69,13 @@ Thumbs.db
 .aiox-core/local/
 .claude/settings.local.json
 .aiox/install-log.txt
+
+.grok/
+.github/
+.claude/
+.antigravity/
+.agents/
+.gemini/
+.idea/
+.impeccable/
+.kimi/
